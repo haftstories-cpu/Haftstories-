@@ -26,7 +26,7 @@
 :root{--cream:#F4F0E8;--cream-light:#FAF8F3;--purple:#5E1784;--ink:#201D21;--muted:#6F6971;--line:rgba(94,23,132,.24)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-x:hidden;color:var(--ink);background:radial-gradient(circle at 15% 20%,rgba(94,23,132,.05),transparent 30rem),radial-gradient(circle at 85% 80%,rgba(94,23,132,.04),transparent 28rem),var(--cream);font-family:Inter,Arial,sans-serif;font-weight:300}a{color:inherit}
 .hero,.manifest{min-height:100svh;display:grid;place-items:center;padding:48px 24px}.hero__content,.manifest__content{width:min(900px,100%);text-align:center}
-.brand{margin:0;color:var(--purple);font-family:"Playfair Display",Georgia,serif;font-size:clamp(3rem,10vw,8.5rem);font-weight:500;letter-spacing:.02em;line-height:.95;text-transform:uppercase;overflow-wrap:anywhere}
+.brand{margin:0;color:var(--purple);font-family:"Playfair Display",Georgia,serif;font-size:clamp(3rem,10vw,8.5rem);font-weight:500;letter-spacing:.02em;line-height:.95;text-transform:uppercase}
 .season{margin:28px auto 0;max-width:720px;color:var(--purple);font-size:clamp(.72rem,1.8vw,1rem);font-weight:400;letter-spacing:.2em;line-height:1.6;text-transform:uppercase}
 .claim{margin:72px auto 0;max-width:720px;font-family:"Playfair Display",Georgia,serif;font-size:clamp(2rem,5.5vw,4.8rem);font-style:italic;font-weight:500;line-height:1.12}
 .taking-shape{margin:28px auto 0;max-width:620px;color:var(--muted);font-size:clamp(1rem,2.3vw,1.35rem);letter-spacing:.03em;line-height:1.6}
@@ -40,7 +40,7 @@
 .instagram{display:inline-flex;align-items:center;gap:12px;margin-top:24px;padding:14px 22px;border:1px solid var(--purple);border-radius:999px;color:var(--purple);font-weight:500;text-decoration:none;transition:color .18s ease,background-color .18s ease,transform .18s ease}
 .instagram:hover,.instagram:focus-visible{color:var(--cream-light);background:var(--purple);transform:translateY(-2px)}.instagram svg{width:20px;height:20px;flex:0 0 auto}
 footer{padding:0 24px 36px;color:var(--muted);font-size:.72rem;letter-spacing:.08em;text-align:center}
-@media(max-width:600px){
+@media (max-width: 600px) {.brand {font-size: 11vw;white-space: nowrap;}
 .hero,.manifest{min-height:92svh;padding-left:30px;padding-right:30px}
 .hero__content,.manifest__content{width:min(100%,330px)}
 .brand{font-size:clamp(2.55rem,13vw,4rem);letter-spacing:0}
